@@ -1,0 +1,151 @@
+[33mcommit 4550458fbf0ebe84b9369f1618fb9693f652aa05[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Turaiev Kyrylo <38906421+2rv@users.noreply.github.com>
+Date:   Tue May 9 19:40:20 2023 +0300
+
+    Delete public/font directory
+
+[33mcommit 8f0a6511159f049b8bcae3602d71d47500f72c2b[m
+Author: Turaiev Kyrylo <38906421+2rv@users.noreply.github.com>
+Date:   Tue May 9 19:39:59 2023 +0300
+
+    Create .keep
+
+[33mcommit d1c8504bbfb23afa869f808e3a4955da8bba5cc2[m
+Author: Turaiev Kyrylo <38906421+2rv@users.noreply.github.com>
+Date:   Tue May 9 19:39:48 2023 +0300
+
+    Delete .keep
+
+[33mcommit 8121ff6b853a3b857556aaf2706009e12951b9e7[m
+Author: Turaiev Kyrylo <38906421+2rv@users.noreply.github.com>
+Date:   Tue May 9 19:39:23 2023 +0300
+
+    Create .keep
+
+[33mcommit 0b9f1f0b7d8c540a5aa4b8aeb9f9b500f6a34987[m
+Author: Turaiev Kyrylo <38906421+2rv@users.noreply.github.com>
+Date:   Thu Mar 23 13:14:09 2023 +0200
+
+    Update default.hbs
+
+[33mcommit 9bfb6a26beb7aa78f7ade44660b2fb7c9bbe0c1f[m
+Author: Turaiev Kyrylo <38906421+2rv@users.noreply.github.com>
+Date:   Thu Mar 23 13:12:12 2023 +0200
+
+    Create normalize.css
+
+[33mcommit 3b35b9912bd5f43625f98d47bc181c345971bb6c[m
+Author: Turaiev Kyrylo <38906421+2rv@users.noreply.github.com>
+Date:   Mon Mar 13 16:09:35 2023 +0200
+
+    Update index.hbs
+
+[33mcommit 87532d96682133c313ded91d574f1eb1ad351545[m
+Author: 2rv <turaievkyrylo@gmail.com>
+Date:   Mon Mar 13 15:44:26 2023 +0200
+
+    added first component
+
+[33mcommit cc71a9f80dc19a8f2089c8b41496d1e8055f5e7a[m
+Author: Turaiev Kyrylo <38906421+2rv@users.noreply.github.com>
+Date:   Mon Mar 13 15:25:18 2023 +0200
+
+    init project from old
+
+[33mcommit f8351c149deeb5a6e83f9e20df7f8b6c432351cc[m
+Author: 2rv <turaievkyrylo@gmail.com>
+Date:   Fri Mar 10 17:04:23 2023 +0200
+
+    upd packages
+
+[33mcommit 52e8fe5aded3e407abcc3478d2e6c4a116da6760[m
+Merge: 7e5bf3b e4a564e
+Author: Turaiev Kyrylo <38906421+2rv@users.noreply.github.com>
+Date:   Fri Mar 10 11:54:17 2023 +0200
+
+    Merge pull request #2 from 2rv/person
+    
+    end 1 task
+
+[33mcommit e4a564e69e4331f4310d5c855285d58e160ecb0b[m
+Author: 2rv <turaievkyrylo@gmail.com>
+Date:   Fri Mar 10 11:53:23 2023 +0200
+
+    end 1 task
+
+[33mcommit 7e5bf3bf34863cf56ee9175f0ba9146a60a8dce3[m
+Merge: 085e70c fee2048
+Author: Turaiev Kyrylo <38906421+2rv@users.noreply.github.com>
+Date:   Thu Mar 9 19:40:18 2023 +0200
+
+    Merge pull request #1 from 2rv/add-s
+    
+    add s
+
+[33mcommit fee2048a7de231e201963ce9fd136b2265506157[m
+Author: 2rv <turaievkyrylo@gmail.com>
+Date:   Thu Mar 9 19:38:04 2023 +0200
+
+    upd
+
+[33mcommit 60589b03497fb1f30473d6e9190e30ab85e578c8[m
+Merge: 0b0fbe2 085e70c
+Author: 2rv <turaievkyrylo@gmail.com>
+Date:   Thu Mar 9 19:37:25 2023 +0200
+
+    Merge branch 'master' of https://github.com/2rv/resume into add-s
+
+[33mcommit 085e70c4ee32eb96a57fa67a7c89e887aedb2aba[m
+Author: Turaiev Kyrylo <38906421+2rv@users.noreply.github.com>
+Date:   Thu Mar 9 19:36:52 2023 +0200
+
+    Update package.json
+
+[33mcommit 0b0fbe26f3cff83356a327843487046f32392878[m
+Author: 2rv <turaievkyrylo@gmail.com>
+Date:   Thu Mar 9 19:31:36 2023 +0200
+
+    add s
+
+[33mcommit fb0ae746b698bfc5f00d5a45a29927258dc14b37[m
+Merge: 2e8a1d3 433d962
+Author: 2rv <turaievkyrylo@gmail.com>
+Date:   Thu Mar 9 19:21:46 2023 +0200
+
+    merge
+
+[33mcommit 2e8a1d3c78b519316c052bf4eced837d7f94331c[m
+Author: 2rv <turaievkyrylo@gmail.com>
+Date:   Thu Mar 9 19:16:05 2023 +0200
+
+    some upd
+
+[33mcommit 433d9622947495976d775f74e5e7ceb868f2c883[m
+Author: Turaiev Kyrylo <38906421+2rv@users.noreply.github.com>
+Date:   Thu Mar 9 19:13:46 2023 +0200
+
+    Update skills.hbs
+
+[33mcommit b82a4e3c7e0d60cf008f338216250ae9809f9517[m
+Author: Turaiev Kyrylo <38906421+2rv@users.noreply.github.com>
+Date:   Thu Mar 9 19:12:34 2023 +0200
+
+    upd top to lowercase
+
+[33mcommit 2973a899eafeee16c7c52aa8f9bb51ec460c37ee[m
+Author: 2rv <turaievkyrylo@gmail.com>
+Date:   Thu Mar 9 15:28:40 2023 +0200
+
+    upd package
+
+[33mcommit 2031dbfd727af470d54a092059ad8f75513297ae[m
+Author: 2rv <turaievkyrylo@gmail.com>
+Date:   Thu Mar 9 15:24:44 2023 +0200
+
+    done 4 lessons
+
+[33mcommit 36013420023538ae5a0e010b52a522508fa537a8[m
+Author: 2rv <turaievkyrylo@gmail.com>
+Date:   Sat Mar 4 14:25:11 2023 +0200
+
+    init lesson 1
