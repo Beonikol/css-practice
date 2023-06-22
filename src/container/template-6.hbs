@@ -45,13 +45,11 @@
     <h1 class="updates_title">{{title}}</h1>
     {{#each list}}
     <div class="updates_contents">
-        <span class="updates_button">
-            {{#with ../show_all}}
-            <a href="{{url}}">{{text}}</a>
-            {{/with}}
-        </span>
-        <strong class="updates_name">{{nickname}}</strong>
-        <p class="updates_text">{{description}}</p>
+        <div class="updates_img">64*64</div>
+        <div class="updates_desc">
+            <strong class="updates_name">{{nickname}}</strong>
+            <p class="updates_text">{{description}}</p>
+        </div>
     </div>
     {{/each}}
     <a href="#" class="updates_link">All messages</a>
@@ -64,12 +62,16 @@
         <h2>{{title}}</h2>
         <button>{{badge}}</button>
     </div>
-    {{#each list}}
-    <div class="expirience_list">
-        <strong>{{name}}</strong>
-        <p>{{details}}</p>
+    <div class="expirience_card">
+        {{#each list}}
+
+        <div class="expirience_list">
+            <strong>{{name}}</strong>
+            <p>{{details}}</p>
+        </div>
+
+        {{/each}}
     </div>
-    {{/each}}
 </div>
 {{/with}}
 
