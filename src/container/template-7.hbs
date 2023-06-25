@@ -1,27 +1,6 @@
 <header class="header_all">
     {{#with header}}
-    <div class="header">
-        <a href="#test" class="logo_link">
-            <div class="logo">
-                <span class="badge text-bg-primary">{{brandName}}</span>
-            </div>
-        </a>
-
-
-        <nav class="header_nav">
-            <div class="header_nav_right">
-                <div class="nav {{#if isVertical}}nav_vertical{{else}}nav_inline{{/if}}">
-                    {{#each links}}
-                    <a href="{{url}}" class="nav_link">{{text}}</a>
-                    {{/each}}
-                </div>
-            </div>
-        </nav>
-    </div>
-    <div class="ad">
-        <div class="ad_text">{{ad.text}}: {{ad.url}}</div>
-        <div class="ad_user">Users online: {{userOnline}}</div>
-    </div>
+        {{> headerDark}}
     {{/with}}
 </header>
 
@@ -47,31 +26,14 @@
     </div>
     <div class="articles_card" id="{{id}}">
         {{#each articles}}
-        <div class="articles_card_content">
-            <img src="{{photo}}" alt="photo">
-            <div class="articles_card_name">{{name}}</div>
-            <p class="articles_text">{{description}}</p>
-            <a href="#" class="articles_button">Read All</a>
-            {{#if isNew}}
-            <div class="card_badge">NEW</div>
-            {{/if}}
-        </div>
+        {{> articleCardDark}}
         {{/each}}
     </div>
 
 </div>
 
-
 <footer class="footer" id="test">
     {{#with footer}}
-    <div>
-        <span class="footer_copyright">{{copyright}}</span>
-    </div>
-
-    <div class="nav {{#if isVertical}}nav_vertical{{else}}nav_inline{{/if}}">
-        {{#each pages}}
-        <a href="{{path}}" class="nav_link">{{name}}</a>
-        {{/each}}
-    </div>
+    {{> footerDark}}
     {{/with}}
 </footer>
