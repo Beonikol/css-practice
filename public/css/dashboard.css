@@ -276,7 +276,14 @@ body {
   }
 
   .devider {
-    color:  var(--color-light);
+    color: var(--color-light);
+    width: 100%;
+  }
+
+  .form__fild {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: stretch;
   }
 }
 
@@ -329,9 +336,9 @@ body {
     gap: var(--spacing-1);
   }
 
-  /* .vertical--big {
+  .vertical--big {
     gap: var(--spacing-5);
-  } */
+  }
 
   .nav-button--active {
     background-color: var(--color-primary);
@@ -346,6 +353,10 @@ body {
 
   .fild--header::placeholder {
     color: #bdbdbd;
+  }
+
+  .fild--form {
+    height: 36px;
   }
 
   .icon--button {
@@ -407,6 +418,19 @@ body {
 
   .purchase--success {
     color: var(--color-success);
+  }
+
+  .purchase--block {
+    max-height: 300px;
+    height: 100%;
+  }
+
+  .checkbox--form {
+    float: left;
+  }
+
+  .checkbox--label {
+    margin-left: 8px;
   }
 }
 
