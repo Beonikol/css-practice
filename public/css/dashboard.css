@@ -231,7 +231,7 @@ body {
 
   .purchase__block {
     display: grid;
-    grid-template-columns: 2fr 450px;
+    grid-template-columns: 2fr 1fr;
     gap: var(--spacing-5);
   }
 
@@ -432,9 +432,26 @@ body {
   .checkbox--label {
     margin-left: 8px;
   }
+
+  .text--buttom {
+    justify-content: center;
+  }
 }
 
 @layer adaptive {
+  @media all and (width <= 1416px) {
+    .purchase--block {
+      max-height: none;
+      height: 100%;
+    }
+  }
+
+  @media all and (width <= 1320px) {
+    .purchase__block {
+      grid-template-columns: 1fr;
+    }
+  }
+
   @media all and (width <= 1000px) {
     .page--dashboard {
       grid-template-columns: 1fr;
@@ -446,6 +463,34 @@ body {
 
     .header {
       display: none;
+    }
+  }
+
+  @media all and (width <= 860px) {
+    .analytic__block {
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: 1fr 1fr;
+    }
+  }
+
+  @media all and (width <= 660px) {
+    .analytic__block {
+      grid-template-columns: 1fr;
+    }
+
+    .purchase__container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .form__fild {
+      grid-template-columns: 1fr;
+      justify-content: stretch;
+    }
+  }
+
+  @media all and (width <= 500px) {
+    .purchase__container {
+      grid-template-columns:1fr;
     }
   }
 }
