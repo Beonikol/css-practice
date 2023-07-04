@@ -441,7 +441,7 @@ body {
 @layer adaptive {
   @media all and (width <= 1416px) {
     .purchase--block {
-      max-height: none;
+      max-height: 324px;
       height: 100%;
     }
   }
@@ -482,6 +482,11 @@ body {
       grid-template-columns: repeat(2, 1fr);
     }
 
+    .purchase--block {
+      max-height: none;
+      height: 100%;
+    }
+
     .form__fild {
       grid-template-columns: 1fr;
       justify-content: stretch;
@@ -490,7 +495,11 @@ body {
 
   @media all and (width <= 500px) {
     .purchase__container {
-      grid-template-columns:1fr;
+      grid-template-columns: 1fr;
+    }
+
+    .analytic--double {
+      grid-row: auto;
     }
   }
 }
